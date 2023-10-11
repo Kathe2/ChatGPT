@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Noto+Sans:wght@400;700&family=Open+Sans&family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,700&family=Roboto:wght@100;300;400;500;700&family=Space+Grotesk:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #303139;
+}
+
+nav{
+    height: 100vh;
+    width: 261px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #202123;
+    color: white;
+    text-align: center;
+}
+
+.new{
+    border:2px solid #444654;
+    width: 244px;
+    height: 45px;
+    text-align: left;
+    padding-left: 1rem;
+    background-color: #202123;
+    color: white;
+    font-size: 13.5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+nav li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.final{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 43rem;
+}
+
+.final ul{
+    padding-left: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.fim{
+    display: flex;
+    text-align: left;
+    font-size: 13.5px;
+    height: 25px;
+    padding-top: 0.1rem;
+}
+
+.fim p{
+    margin-left: 1rem;
+}
+
+.right{
+    width: calc(100vw - 261px);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 261px;
+    color: white;
+    text-align: center;
+}
+
+.right h1{
+    margin-top: 10rem;
+    font-size: 34px; 
+}
+
+.op{
+    height: 416px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.example{
+    width: 230px;
+    justify-content: space-between;
+    height: 290px;
+    font-size: 13px;
+    margin: 1rem;
+}
+
+.example h3{
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+.example1, .example2, .example3 {
+    background-color: #444654;
+    margin-top: 0.5rem;
+    height: 68px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cap{
+    width: 230px;
+    justify-content: space-between;
+    height: 290px;
+    font-size: 13px;
+    margin: 1rem;
+}
+
+.cap h3{
+    font-size: 17px;
+    margin-bottom: 2.1rem;
+}
+.cap1, .cap2, .cap3 {
+    background-color: #444654;
+    box-shadow: 0px 10px 40px #00000056;
+    margin-top: 0.5rem;
+    height: 68px;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.limi{
+    width: 230px;
+    justify-content: space-between;
+    height: 290px;
+    font-size: 13px;
+    margin: 1rem;
+}
+
+.limi h3{
+    font-size: 17px;
+    margin-bottom: 1.77rem;
+}
+.limi1, .limi2, .limi3 {
+    background-color: #444654;
+    margin-top: 0.5rem;
+    height: 68px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.inp input{
+    border: 2px solid #303139;
+    width: 820px;
+    height: 48px;
+    background-color: #40414E;
+    margin-top: 15rem;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: large;
+    color: black;
+
+}
+
+.inp img{
+
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: 2.5rem;
+    top: 0.4rem;
+}
+
+.p-final{
+    height: 26px;
+    font-size: 12px;
+    color: #9A9B9F;
+    margin-top: 01rem;
+}
