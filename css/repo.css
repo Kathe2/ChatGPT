@@ -1,0 +1,236 @@
+@media(max-width:1200px) {
+    nav {
+        width: 200px;
+        height: 100vh;
+    }
+
+    .new {
+        width: 180px;
+    }
+
+    .hist{
+        position: relative;
+        width: 185px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0.5rem;
+        top: 1rem;
+        font-size: 11px;
+
+    }
+
+    .hist p{
+        margin-left: 0.4rem;
+        margin-right: 0.2rem;
+    }
+
+    .fin{
+        margin-left: 0.5rem;
+    }
+    .final {
+        z-index: 1;
+        position: relative;
+        display: inline;
+        top: 19.5rem;
+    }
+
+    .final li {
+        cursor: pointer;
+    }
+
+    .right {
+        border: 2px solid #303139;
+        position: relative;
+        width: calc(100vw - 200px);
+        height: 100vh;
+        left: 12.5rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .part1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-19.2rem, 3rem);
+    }
+
+    .part1 p{
+      transform: translateX(1.5rem);
+    }
+
+    .part2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: translateY(5rem);
+        height: 162px;
+    }
+
+    .ava {
+        width: 35px;
+        height: 35px;
+        border-radius: 2px;
+        transform: translate(1rem, -1.6rem);
+    }
+
+    .part2 p {
+        width: 628px;
+        height: 108px;
+        transform: translate(-1.5rem, 1rem);
+        text-align: left;
+    }
+
+    .feed {
+        transform: translate(-3.5rem, -2rem);
+        width: 42px;
+        height: 15px;
+    }
+
+    .reg {
+        width: 184px;
+        height: 37px;
+        border-radius: 3px;
+        border: 2px solid #444654;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+        transform: translate(18rem, 17rem);
+        font-size: 13px;
+    }
+
+    .reg img {
+        margin-right: 1rem;
+    }
+
+    .inp {
+        position: relative;
+        bottom: 20.5rem;
+    }
+
+    .inp input {
+        width: 760px;
+        transform: translate(1rem, 23rem);
+    }
+
+    .inp img {
+        position: relative;
+        transform: translate(0.5rem, 23rem);
+    }
+
+    .p-final {
+        transform: translate(0, 2rem);
+    }
+}
+
+@media(max-width:500px) {
+    nav {
+        width: 170px;
+        height: 100vh;
+    }
+
+    .new {
+        width: 150px;
+    }
+
+    .hist{
+        width: 155px;
+        font-size: 8px;
+        padding: 0.2rem;
+    }
+
+
+    .final {
+        z-index: 1;
+        position: relative;
+        display: inline;
+        top: 11.5rem;
+
+    }
+
+
+
+    .final li {
+        cursor: pointer;
+    }
+
+    .right {
+        border: 2px solid #303139;
+        position: relative;
+        width: calc(100vw - 200px);
+        height: 100vh;
+        left: 12.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .part1{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        transform: translate(-6.5rem,1rem);
+        font-size:13px ;
+    }
+
+    .part1 img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .part2{
+   
+        width: calc(100vw - 172px);
+        height: 182px;
+        transform: translate(-2rem,3rem);
+    }
+    .part2 img{
+        width: 25px;
+        height: 25px;
+        transform: translate(0.3rem,-4.5rem);
+    }
+    .part2 p{
+        font-size: 13px;
+        transform: translate(0.7rem, -1.5rem);
+    }
+
+    .feed{
+        position: relative;
+        right: 0.5rem;
+    }
+
+    .reg{
+        width: 120px;
+        font-size: 10px;
+        transform: translate(5rem, 10.5rem);
+    }
+
+    .reg img{
+        margin-right: 0.2rem;
+    }
+
+    .inp {
+        position: relative;
+        bottom: 4rem;
+    }
+
+    .inp input {
+        width: 240px;
+        transform: translateX(-0.4rem);
+    }
+
+    .inp img {
+        position: relative;
+        transform: translateX(0.5rem);
+        width: 15px;
+    }
+
+    .p-final {
+        transform: translate(-1rem,-4.5rem);
+    }
+
+}

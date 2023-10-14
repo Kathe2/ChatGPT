@@ -1,0 +1,128 @@
+@media(max-width:1200px){
+    nav{
+        width: 200px;
+        height: 100vh;
+    }
+
+    .new{
+        width: 180px;
+    }
+
+    .final{
+        z-index: 1;
+        position: relative;
+        display: inline;
+        top: 21.8rem;
+  
+    }
+
+    .final li{
+        cursor: pointer;
+    }
+
+    .right{border: 2px solid #303139;
+        position: relative;
+        width:calc(100vw - 220px);
+        height: 100vh;
+        left: 12.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right h1{
+        position: relative;
+        bottom: 8rem;
+    }
+
+    .op{
+        position: relative;
+        bottom: 7.5rem;
+    }
+
+    .inp{
+        position: relative;
+        bottom: 22rem;  
+    }
+
+    .inp input{
+        width: 760px;
+        transform: translateX(1rem);      
+    }
+
+    .inp img{
+        position: relative;
+        transform: translateX(0.5rem);
+
+    }
+
+    .p-final{
+        transform: translateY(-22.5rem);
+    }
+
+
+    
+}
+
+@media(max-width:500px){
+    nav{
+        width: 170px;
+        height: 100vh;
+    }
+
+    .new{
+        width: 150px;
+    }
+
+    .final{
+        z-index: 1;
+        position: relative;
+        display: inline;
+        top: 17rem;
+  
+    }
+
+    .final li{
+        cursor: pointer;
+    }
+
+    .right{border: 2px solid #303139;
+        position: relative;
+        width:calc(100vw - 200px);
+        height: 100vh;
+        left: 12.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right h1{
+        position: relative;
+        bottom: 8rem;
+    }
+
+    .op{
+        position: relative;
+        bottom: 7.5rem;
+        display: inline;
+    }
+
+    .inp{
+        position: relative;
+        bottom: 21.5rem;  
+    }
+
+    .inp input{
+        width: 240px;
+        transform: translateX(-0.4rem);      
+    }
+
+    .inp img{
+        position: relative;
+        transform: translateX(0.5rem);
+        width: 15px;
+    }
+
+    .p-final{
+        transform: translateY(-22.5rem);
+    }
+    
+}
