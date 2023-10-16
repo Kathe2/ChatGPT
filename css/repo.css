@@ -17,12 +17,15 @@
         left: 0.5rem;
         top: 1rem;
         font-size: 11px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
 
     }
 
     .hist p{
         margin-left: 0.4rem;
         margin-right: 0.2rem;
+        font-size: 9.5px;
     }
 
     .fin{
@@ -32,7 +35,7 @@
         z-index: 1;
         position: relative;
         display: inline;
-        top: 19.5rem;
+        top: 17rem;
     }
 
     .final li {
@@ -127,7 +130,7 @@
     }
 }
 
-@media(max-width:500px) {
+@media(max-width:560px) {
     nav {
         width: 170px;
         height: 100vh;
@@ -148,7 +151,7 @@
         z-index: 1;
         position: relative;
         display: inline;
-        top: 11.5rem;
+       transform: translateY(60rem);
 
     }
 
