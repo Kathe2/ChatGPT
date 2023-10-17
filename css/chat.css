@@ -49,11 +49,17 @@ nav {
     font-size: 13px;
     border-radius: 6px;
     cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
 }
 
 .hist p{
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+.fin{
+    margin-left: 0.5rem;
 }
 
 nav li {
@@ -65,7 +71,7 @@ nav li {
     justify-content: center;
     align-items: center;
     text-align: left;
-    margin-top: 43rem;
+    margin-top: 34rem;
 }
 
 .final ul {
@@ -87,22 +93,28 @@ nav li {
     margin-left: 1rem;
 }
 
+
 .right {
     width: calc(100vw - 261px);
     height: 100vh;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     left: 261px;
     color: white;
     text-align: center;
     font-size: 15px;
+
 }
 
 .part1 {
     display: flex;
-    justify-content: center;
     align-items: center;
+    height: 50px;
+    margin-top: 26px;
+    padding-left: 204px;
 
 }
 
@@ -112,31 +124,42 @@ nav li {
     border-radius: 2px;
 }
 
+.part1-p{
+    padding-left: 2rem;
+}
+
 
 .part2 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 162px;
+    align-items: center;
+    padding-left: 204px;
     background-color: #444654;
+    margin-top: 76px;
+    margin-bottom: 514px;
+    width: calc(100vw - 269px);
 }
 
 .ava {
     width: 35px;
     height: 35px;
     border-radius: 2px;
-    transform: translate(1rem, -1.6rem);
+    margin-bottom: 3rem;
+
 }
 
 .part2 p {
     width: 628px;
     height: 108px;
-    transform: translate(-1.5rem, 1rem);
+    padding-left: 2rem;
+    padding-top: 1rem;
     text-align: left;
+    justify-content: space-around;
+    
 }
 
 .feed {
-    transform: translate(-3.5rem, -2rem);
+    transform: translate(10rem, -2rem);
     width: 42px;
     height: 15px;
 }
@@ -150,12 +173,13 @@ nav li {
     align-items: center;
     display: flex;
     cursor: pointer;
-    transform: translate(18rem, 23rem);
+    transform: translate(20rem, 29rem);
     font-size: 13px;
 }
 
 .reg img {
     margin-right: 1rem;
+    transform: translate(2.9rem,-0.4rem);
 }
 
 .inp input {
@@ -163,9 +187,9 @@ nav li {
     width: 820px;
     height: 48px;
     background-color: #40414E;
-    margin-top: 15rem;
+    margin-top: 30rem;
     padding: 1rem;
-    padding-right: 3rem;
+    padding-right: 199px;
     font-size: large;
     color: black;
 
@@ -184,5 +208,9 @@ nav li {
     height: 26px;
     font-size: 12px;
     color: #9A9B9F;
-    margin-top: 01rem;
+}
+
+.inp{
+    position: relative;
+    bottom: 32rem;
 }
