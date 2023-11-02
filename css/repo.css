@@ -1,4 +1,4 @@
-@media(max-width:1200px) {
+@media(max-width:1100px) {
     nav {
         width: 200px;
         height: 100vh;
@@ -8,34 +8,30 @@
         width: 180px;
     }
 
-    .hist{
+    .hist {
         position: relative;
         width: 185px;
         display: flex;
         justify-content: center;
         align-items: center;
-        left: 0.5rem;
-        top: 1rem;
         font-size: 11px;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-
     }
 
-    .hist p{
+    .hist p {
         margin-left: 0.4rem;
         margin-right: 0.2rem;
         font-size: 9.5px;
     }
 
-    .fin{
+    .fin {
         margin-left: 0.5rem;
     }
+
     .final {
         z-index: 1;
         position: relative;
         display: inline;
-        top: 17rem;
+        top: 15rem;
     }
 
     .final li {
@@ -43,92 +39,95 @@
     }
 
     .right {
-        border: 2px solid #303139;
-        position: relative;
-        width: calc(100vw - 200px);
+        position: absolute;
+        width: calc(100vw - 220px);
         height: 100vh;
         left: 12.5rem;
-        justify-content: center;
-        align-items: center;
-        font-size: 15px;
-        font-weight: 200;
     }
 
     .part1 {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: translate(-19.2rem, 3rem);
+        width: 424px;
+        margin-right: 486px;
+        text-align: start;
+
     }
 
-    .part1 p{
-      transform: translateX(1.5rem);
-    }
 
     .part2 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        transform: translateY(5rem);
+        position: relative;
         height: 162px;
+        width: calc(100vw - 222px);
+        left: 3.4rem;
+        bottom: 4rem;
     }
 
     .ava {
+        position: relative;
         width: 35px;
         height: 35px;
         border-radius: 2px;
-        transform: translate(1rem, -1.6rem);
+        transform: translate(-3.5rem, -1rem);
     }
 
     .part2 p {
         width: 628px;
         height: 108px;
-        transform: translate(-1.5rem, 1rem);
+        transform: translate(-3.5rem, -0.7rem);
         text-align: left;
     }
 
     .feed {
-        transform: translate(-3.5rem, -2rem);
+        transform: translate(-2rem, -2.7rem);
         width: 42px;
         height: 15px;
+    }
+
+    .inp {
+        height: 27vh;
+        position: relative;
+        bottom: 25.5em;
+
     }
 
     .reg {
         width: 184px;
         height: 37px;
         border-radius: 3px;
-        border: 2px solid #444654;
         justify-content: center;
         align-items: center;
         display: flex;
         cursor: pointer;
-        transform: translate(18rem, 17rem);
+        transform: translate(18rem, 2.5rem);
         font-size: 13px;
     }
 
-    .reg img {
-        margin-right: 1rem;
-    }
-
-    .inp {
+    .refre {
         position: relative;
-        bottom: 20.5rem;
+        left: -2px;
+        margin-top: 53.4rem;
     }
 
     .inp input {
         width: 760px;
-        transform: translate(1rem, 23rem);
+        transform: translate(1rem, -27rem);
     }
 
     .inp img {
         position: relative;
-        transform: translate(0.5rem, 23rem);
+        transform: translate(0.8rem, -27rem);
     }
 
     .p-final {
-        transform: translate(0, 2rem);
+        transform: translate(0, -27rem);
+
     }
 }
+
+
 
 @media(max-width:560px) {
     nav {
@@ -140,7 +139,7 @@
         width: 150px;
     }
 
-    .hist{
+    .hist {
         width: 155px;
         font-size: 8px;
         padding: 0.2rem;
@@ -151,7 +150,7 @@
         z-index: 1;
         position: relative;
         display: inline;
-       transform: translateY(60rem);
+        transform: translateY(60rem);
 
     }
 
@@ -166,74 +165,80 @@
         position: relative;
         width: calc(100vw - 200px);
         height: 100vh;
-        left: 12.5rem;
+        left: 32.3rem;
         justify-content: center;
         align-items: center;
+        top: 10.5rem;
     }
 
 
-    .part1{
+    .part1 {
         justify-content: center;
         align-items: center;
         display: flex;
-        transform: translate(-6.5rem,1rem);
-        font-size:13px ;
-    }
-
-    .part1 img{
-        width: 25px;
-        height: 25px;
-    }
-
-    .part2{
-   
-        width: calc(100vw - 172px);
-        height: 182px;
-        transform: translate(-2rem,3rem);
-    }
-    .part2 img{
-        width: 25px;
-        height: 25px;
-        transform: translate(0.3rem,-4.5rem);
-    }
-    .part2 p{
+        transform: translate(-6.5rem, 1rem);
         font-size: 13px;
-        transform: translate(0.7rem, -1.5rem);
     }
 
-    .feed{
+    .part1 img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .part2 {
+        position: relative;
+        width:100%;
+        height: 182px;
+        transform: translate(-2rem, 3rem);
+
+
+    }
+
+    .part2 img {
+        width: 25px;
+        height: 25px;
+        transform: translate(-6.5rem, -2rem);
+    }
+
+    .part2 p {
+        font-size: 12px;
+        transform: translate(-15rem, -1.5rem);
+        width: 100vw;
+    }
+
+    .feed {
         position: relative;
         right: 0.5rem;
     }
 
-    .reg{
+   .inp {
+        width: 100%;
+        position: relative;
+        height:15rem;
+        left:-3.2rem;  
+    }
+    .reg {
         width: 120px;
         font-size: 10px;
-        transform: translate(5rem, 10.5rem);
+        
     }
 
-    .reg img{
+    .reg img {
         margin-right: 0.2rem;
     }
 
-    .inp {
-        position: relative;
-        bottom: 4rem;
-    }
-
-    .inp input {
-        width: 240px;
-        transform: translateX(-0.4rem);
-    }
 
     .inp img {
         position: relative;
-        transform: translateX(0.5rem);
         width: 15px;
+    
     }
 
-    .p-final {
-        transform: translate(-1rem,-4.5rem);
+    
+    .inp a img{
+       position: relative;
+       top: -15%;
+       left: 48%;
     }
 
 }
